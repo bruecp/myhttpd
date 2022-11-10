@@ -10,8 +10,8 @@ pipeline {
     }
 
     environment {
-        DEV_PROJECT = "fre-myhttpd"
-        IMAGE_URL = "quay.io/jfreygner/myhttpd:0.1"
+        DEV_PROJECT = "brp-myhttpd"
+        IMAGE_URL = "quay.io/bruecp_1/myhttpd:0.1"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "myhttpd"
